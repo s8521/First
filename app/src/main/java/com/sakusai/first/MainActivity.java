@@ -29,9 +29,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //得到资源
+        //得到資源
         li1 = (LinearLayout) findViewById(R.id.li1);
-        //初始化柱状图
+        //初始化柱狀圖
         initView();
     }
 
